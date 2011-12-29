@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){null==a.cookie(welcome_message.cookie)&&(a(welcome_message.prepend).prepend('<div id="'+welcome_message.div+'">'+welcome_message.message+"</div>"),a("#"+welcome_message.div).fadeIn("slow"),a.cookie(welcome_message.cookie,"1",{expires:parseInt(welcome_message.expiration),path:"/",domain:welcome_message.domain}))});
